@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit post</title>
+    <link rel="stylesheet" href="/style_e.css" />
+  </head>
+  <body>
+    <div class="pp">
+      <h1>📢Echo -</h1>
+      <h1>“Speak, Share, Echo....”</h1>
+    </div>
+    <hr class="tt" />
+
+    <div class="ui">
+      <h2>Username: 👤<%=ipost.username%></h2>
+      <h4>ID:<%=ipost.id%></h4>
+    </div>
+
+    <div class="ff">
+      <form
+        method="post"
+        action="/posts/<%=ipost._id%>?_method=PATCH"
+        class="ed"
+      >
+        <label  class="ll" for="tt"> Edit this post</label>
+        <textarea rows="4" cols="20" id="tt" name="content">
+<%=ipost.content%> </textarea
+        >
+        <button class="bb">Click to Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

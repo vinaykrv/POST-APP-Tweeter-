@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(107, 177, 234);
+}
+
+h1 {
+  color: crimson;
+}
+
+.bb {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: white;
+  color: red;
+  text-decoration: none; /* remove underline */
+  border-radius: 6px;
+  cursor: pointer;
+}
+.bb:hover {
+  background: green;
+  color: white;
+}
+
+.tt {
+  border: 1px solid rgba(206, 16, 105, 0.4);
+  width: 400px;
+}
+
+/* index.ejs*/
+.bd {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* space between posts */
+  padding: 20px;
+}
+
+.ssd {
+  background-color: lightgray;
+  margin: 10px;
+  border: 2px solid red;
+  padding: 12px;
+  border-radius: 15px;
+  /* text-align: center; */
+}
+
+.ssu {
+  /* font-style: italic; */
+  margin-left: 10px;
+}
+.ssc {
+  margin-left: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.pp {
+  display: flex;
+  justify-content: center;
+}
+
+.bbc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.bkc {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.b1 {
+  display: inline-block;
+  font-size: 14px;
+  background: white;
+  color: green;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.b2 {
+  display: inline-block;
+  font-size: 14px;
+  background: white;
+  color: blueviolet;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.b3 {
+  display: inline-block;
+  font-size: 14px;
+  background: white;
+  color: red;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* .pen{
+    display: flex;
+} */

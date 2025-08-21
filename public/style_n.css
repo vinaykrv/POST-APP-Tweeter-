@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(107, 177, 234);
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.pp {
+  display: flex;
+  justify-content: center;
+  color: crimson;
+}
+
+.tt {
+  border: 1px solid rgba(206, 16, 105, 0.4);
+  width: 400px;
+}
+
+.ff {
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 12px;
+  background-color: beige;
+  /* padding: 0 15px; */
+}
+
+.fb{
+    padding : 10px;
+}
+
+.sb{
+    padding: 10px;
+}
+
+.ll {
+  font-weight: 700;
+}
+
+.bb {
+  display: inline-block;
+  font-size: 14px;
+  background: white;
+  color: green;
+  border-radius: 6px;
+  cursor: pointer;
+}

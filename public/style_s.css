@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(107, 177, 234);
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid red;
+}
+
+.pp {
+  display: flex;
+  justify-content: center;
+  color: crimson;
+}
+
+.tt {
+  border: 1px solid rgba(206, 16, 105, 0.4);
+  width: 400px;
+}
+
+.ssd {
+  height: 100px;
+  width: 500px;
+  /* background-color: green; */
+  margin: 20px auto;
+  /* text-align: center; */
+  border: 1px solid red;
+  border-radius: 12px;
+  background-color: beige;
+  padding: 15px;
+}
