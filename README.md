@@ -4,6 +4,14 @@ A simple web application built using **Express.js**, **EJS**, and **MongoDB** wh
 
 ---
 
+## 🖼️ Screenshots
+![Homepage Screenshot](image_1.png)
+![Create new post](image_2.png)
+![Single view](image_3.png)
+![Edit post](image_4.png)
+
+---
+
 ## 🚀 Features
 
 - Create a new post  
@@ -93,15 +101,6 @@ Server will start at 👉 `http://localhost:5000`
 | GET    | `/posts/:id/edit` | Edit post form |
 | PUT    | `/posts/:id` | Update post          |
 | DELETE | `/posts/:id` | Delete post          |
-
----
-
-## 🖼️ Screenshots
-![Homepage Screenshot](image_1.png)
-![Create new post](image_2.png)
-![Single view](image_3.png)
-![Edit post](image_4.png)
-
 
 ---
 
