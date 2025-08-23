@@ -1,4 +1,4 @@
-# 📮 POST APP
+# 📮 POST it Status App
 
 A simple web application built using **Express.js**, **EJS**, and **MongoDB** where users can create, view, update, and delete posts.
 
